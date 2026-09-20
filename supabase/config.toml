@@ -1,0 +1,11 @@
+project_id = "learnloop"
+
+[functions.ai]
+verify_jwt = true
+
+[functions.tts]
+verify_jwt = true
+
+# auth is checked inside the function (user JWT for welcome, shared secret for cron reminders)
+[functions.email]
+verify_jwt = false
