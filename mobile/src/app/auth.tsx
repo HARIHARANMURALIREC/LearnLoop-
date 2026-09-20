@@ -20,7 +20,7 @@ export default function Auth() {
     setBusy(true); setError(''); setNotice('')
     const { data, error } = mode === 'signup' ? await supabase.auth.signUp({ email: email.trim(), password }) : await supabase.auth.signInWithPassword({ email: email.trim(), password })
     if (error) setError(error.status === 429 ? 'Too many emails sent recently. Wait a few minutes, or log in if you already have an account.' : error.message)
-    else if (mode === 'signup' && !data.session) setNotice('Check your email to confirm your account, then log in.')
+    else if (mode === 'signup' && !data.session) setNotice('Check your email to confirm your account, then log in. If you don\'t see it, check your spam inbox.')
     setBusy(false)
   }
 
