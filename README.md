@@ -211,7 +211,7 @@ See **[DEPLOY.md](DEPLOY.md)** for the step-by-step free deployment guide (Cloud
 
 <div align="center">
 
-Made with ❤️ by [HARIHARANMURALIREC](https://github.com/HARIHARANMURALIREC)
+Made with ❤️ by [HARIHARANMURALIREC](https://github.com/HARIHARANMURALIREC) and [SHIVA SARAN](https://github.com/saran-77)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20&height=120&section=footer" alt="footer"/>
 
